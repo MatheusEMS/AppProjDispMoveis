@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class ProdutoService {
-  final String API_REST = "http://192.168.0.38:8080";
+  final String API_REST = "http://10.0.2.2:8080";
 
   Future<bool> addProduto(
       {required String nome,
